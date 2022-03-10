@@ -5,14 +5,12 @@ body {
 }
 
 #obal{
-  /* Maxim�ln� ���ka 960 px */
   max-width: 960px;
   margin: 0 auto;
-  /* Ohrani�en� - pln� �ed� ��ra o tlou��ce 1 pixel  */
-  border:  1px;
+  border:solid gray 1px;
   padding: 20px;
   background-color: white;
-  /* Barva textu - tmav� �ed� odst�n, �estn�ctkov� hodnoty 3 */
+  color: #333;
 }
 
 nav{
@@ -38,12 +36,12 @@ nav :hover{
 h1 {
   text-align: center;
   font-size: 200%;
-  /* Nadpis bude tu�n� */
-  /* Barva nadpisu bude toto�n� s barvou zv�razn�n�ho odkazu */
-  /* V��ka ��dku nadpisu bude 2em */
+  font-weight: bold;
+  color: rgb(0,153,204);
+  height: 2em;
 }
 
-/* Plat� pro nadpisy h2 i h3 */ {
+h2,h3{
   font-weight: 200; 
   line-height: 2em;
 }
@@ -55,32 +53,34 @@ h2 {
 
 h3 { 
   font-size: 1.2em;
-  /* Nadpisy budou podtr�eny tenkou te�kovanou �arou, jej� barva bude shodn� s barvou p�sma */ 
+  border-bottom: dotted thin;
 }
 
 p, li {
   line-height: 1.5em;
-  /* Horn� a spodn� okraj odstavc� i odr�ek budou odsazeny o hodnotu 1em */
+  padding: 1em;
 }
 
 p {
-  /* Text odstavc� bude zarovn�n do bloku */
+  text-align: justify;
 }
 
 li {
-  /* Nastavte styl odr�ek tak, aby odpov�dal p�edloze (�tvercov� odr�ka) */
+  list-style-type: square;
   list-style-position: outside;
   margin-left: 20px;
 }
 
-/* Nastavte pravidlo pro v�echny tu�n� a mod�e zv�razn�n� texty v odr�k�ch. */
+b,strong{
+  font-weight: bolder;
+}
 
-/* Nastavte pravidlo pro v�echny odstavce-pozn�mky: 
-    * na lev�m okraji bude �ed� ohrani�en� 10px siln�
-    * text bude zleva odsazen o 50 pixel�
-    * pou�it� font bude o 10% men�� ne� z�kladn� p�smo
-    * p�smo bude naklon�n� (kurz�va)
-*/
+.poznamka{
+  border-left: solid gray 10px;
+  padding-left: 50px;
+  font-size: 90%;
+  font-style: italic;
+}
 
 footer {
   color: gray;
@@ -93,7 +93,14 @@ strong {
   font-weight: bold;
 }
 
-
 /* Nastavte pravidla pro zna�ky vlo�en� do textu �vodn�ho odstavce,
    aby kone�n� vzheld textu odpov�dal p�edloze. */
-
+b{
+  color: rgb(0,153,204);
+}
+mark{
+  background-color: rgb(102,153,0);
+}
+abbr{
+  text-decoration: underline dotted red;
+}
