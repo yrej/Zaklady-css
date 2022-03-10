@@ -93,8 +93,6 @@ strong {
   font-weight: bold;
 }
 
-/* Nastavte pravidla pro zna�ky vlo�en� do textu �vodn�ho odstavce,
-   aby kone�n� vzheld textu odpov�dal p�edloze. */
 b{
   color: rgb(0,153,204);
 }
