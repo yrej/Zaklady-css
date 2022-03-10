@@ -4,7 +4,7 @@ body {
   background-color: lightgrey;
 }
 
-/* Selektor pro odd�l ozna�en� ID obal */ {
+.obal{
   /* Maxim�ln� ���ka 960 px */
   /* Nastav okraje tak, aby byl blok obal na str�nce vycentrov�n */
   /* Ohrani�en� - pln� �ed� ��ra o tlou��ce 1 pixel  */
@@ -13,7 +13,7 @@ body {
   /* Barva textu - tmav� �ed� odst�n, �estn�ctkov� hodnoty 3 */
 }
 
-/* Selektor pro zna�ku nav */ {
+nav{
   background-color: #222;
   margin: -20px;
   margin-bottom: 20px;
