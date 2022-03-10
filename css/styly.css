@@ -1,0 +1,98 @@
+/* CSS Document */
+body {
+  font-family: arial, sans-serif;
+  background-color: lightgrey;
+}
+
+/* Selektor pro odd�l ozna�en� ID obal */ {
+  /* Maxim�ln� ���ka 960 px */
+  /* Nastav okraje tak, aby byl blok obal na str�nce vycentrov�n */
+  /* Ohrani�en� - pln� �ed� ��ra o tlou��ce 1 pixel  */
+  /* Vnit�n� odsazen� - 20 pixel� */
+  /* B�l� barva pozad� */
+  /* Barva textu - tmav� �ed� odst�n, �estn�ctkov� hodnoty 3 */
+}
+
+/* Selektor pro zna�ku nav */ {
+  background-color: #222;
+  margin: -20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 1.1em;
+  color: lightgray;
+}
+
+/* Pro v�echny odkazy v bloku navigace */ {
+  padding: 19px;
+  /* Odkazy nebudou podtr�eny */
+  color: lightgray;
+}
+
+/* Pro v�echny odkazy v bloku navigace p�i p�ejet� kurzoru my�i */ {
+  color: white;
+  background-color: rgb(0,153,204);
+}
+
+h1 {
+  /* Nadpis bude vycentrov�n */
+  /* Velikost nadpisu bude dvojn�sobn� vzhledem k z�kladn� velikosti p�sma */
+  /* Nadpis bude tu�n� */
+  /* Barva nadpisu bude toto�n� s barvou zv�razn�n�ho odkazu */
+  /* Nadpis bude vyps�n velk�mi p�smeny */
+  /* V��ka ��dku nadpisu bude 2em */
+}
+
+/* Plat� pro nadpisy h2 i h3 */ {
+  font-weight: 200; 
+  line-height: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: rgb(102,153,0);
+}
+
+h3 { 
+  font-size: 1.2em;
+  /* Nadpisy budou podtr�eny tenkou te�kovanou �arou, jej� barva bude shodn� s barvou p�sma */ 
+}
+
+p, li {
+  line-height: 1.5em;
+  /* Horn� a spodn� okraj odstavc� i odr�ek budou odsazeny o hodnotu 1em */
+}
+
+p {
+  /* Text odstavc� bude zarovn�n do bloku */
+}
+
+li {
+  /* Nastavte styl odr�ek tak, aby odpov�dal p�edloze (�tvercov� odr�ka) */
+  list-style-position: outside;
+  margin-left: 20px;
+}
+
+/* Nastavte pravidlo pro v�echny tu�n� a mod�e zv�razn�n� texty v odr�k�ch. */
+
+/* Nastavte pravidlo pro v�echny odstavce-pozn�mky: 
+    * na lev�m okraji bude �ed� ohrani�en� 10px siln�
+    * text bude zleva odsazen o 50 pixel�
+    * pou�it� font bude o 10% men�� ne� z�kladn� p�smo
+    * p�smo bude naklon�n� (kurz�va)
+*/
+
+footer {
+  color: gray;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 80%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+/* Nastavte pravidla pro zna�ky vlo�en� do textu �vodn�ho odstavce,
+   aby kone�n� vzheld textu odpov�dal p�edloze. */
+
