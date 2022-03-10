@@ -4,12 +4,14 @@ body {
   background-color: lightgrey;
 }
 
-.obal{
+#obal{
   /* Maxim�ln� ���ka 960 px */
-  /* Nastav okraje tak, aby byl blok obal na str�nce vycentrov�n */
+  max-width: 960px;
+  margin: 0 auto;
   /* Ohrani�en� - pln� �ed� ��ra o tlou��ce 1 pixel  */
-  /* Vnit�n� odsazen� - 20 pixel� */
-  /* B�l� barva pozad� */
+  border:  1px;
+  padding: 20px;
+  background-color: white;
   /* Barva textu - tmav� �ed� odst�n, �estn�ctkov� hodnoty 3 */
 }
 
@@ -22,23 +24,22 @@ nav{
   color: lightgray;
 }
 
-/* Pro v�echny odkazy v bloku navigace */ {
+nav a{
   padding: 19px;
   /* Odkazy nebudou podtr�eny */
   color: lightgray;
 }
 
-/* Pro v�echny odkazy v bloku navigace p�i p�ejet� kurzoru my�i */ {
+nav :hover{
   color: white;
   background-color: rgb(0,153,204);
 }
 
 h1 {
-  /* Nadpis bude vycentrov�n */
-  /* Velikost nadpisu bude dvojn�sobn� vzhledem k z�kladn� velikosti p�sma */
+  text-align: center;
+  font-size: 200%;
   /* Nadpis bude tu�n� */
   /* Barva nadpisu bude toto�n� s barvou zv�razn�n�ho odkazu */
-  /* Nadpis bude vyps�n velk�mi p�smeny */
   /* V��ka ��dku nadpisu bude 2em */
 }
 
